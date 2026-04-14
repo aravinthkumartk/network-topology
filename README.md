@@ -24,14 +24,14 @@ The goal of this project is to create a scalable and redundant enterprise-style 
 # 2. VLAN and IP Address Plan:
    
 VLAN ID	Department / Use	Network
-10	Printer	    10.1.1.0/24
-20	AP	          10.1.2.0/24
-30	Sales	       10.1.3.0/24
-40	HR	          10.1.4.0/24
-50	Finance	    10.1.5.0/24
-60	Admin	       10.1.6.0/24
-70	ICT	       10.1.7.0/24
-80	Server Room	 10.1.8.0/24
+10	Printer----------------10.1.1.0/24
+20	AP---------------------10.1.2.0/24
+30	Sales------------------10.1.3.0/24
+40	HR---------------------10.1.4.0/24
+50	Finance----------------10.1.5.0/24
+60	Admin------------------10.1.6.0/24
+70	ICT--------------------10.1.7.0/24
+80	Server Room------------10.1.8.0/24
 99	Blackhole / Unused Ports	Reserved for security
 
 # 3. Basic Configuration Done on All Switches:
